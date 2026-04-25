@@ -22,14 +22,14 @@ export interface StorageNode {
 }
 
 export const BRAND_ASSETS = {
-  BANNER: '/images/og-image.png',
-  HERO: '/images/hero-mobile.png',
-  TEXT_GREP: '/images/logo-secondary.png',
-  AGENT_GREP: '/images/grep.png',
-  AGENT_SED: '/images/sed.png',
-  AGENT_CURL: '/images/curl.png',
-  LOGO_FULL: '/images/logo.png',
-  LOGO_RED_KITE: '/images/red-kite.png',
+  BANNER: '/og-image.png',
+  HERO: '/hero-mobile.png',
+  TEXT_GREP: '/logo-secondary.png',
+  AGENT_GREP: '/grep.png',
+  AGENT_SED: '/sed.png',
+  AGENT_CURL: '/curl.png',
+  LOGO_FULL: '/logo.png',
+  LOGO_RED_KITE: '/red-kite.png',
 };
 
 export const AGENT_REGISTRY = [

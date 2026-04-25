@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 export function DetailStat({ label, value }: { label: string; value: string }) {

@@ -1,0 +1,47 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './app/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        headline: ['Space Grotesk', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+      colors: {
+        primary: '#FF3131',
+        'on-primary': '#ffffff',
+        'primary-dim': '#9b0000',
+        'primary-container': '#690006',
+        'on-primary-container': '#ffffff',
+        secondary: '#c8c6c5',
+        'on-secondary': '#000000',
+        'secondary-container': '#1a1a1a',
+        'on-secondary-container': '#b7b5b4',
+        surface: '#000000',
+        'on-surface': '#ffffff',
+        'surface-variant': '#1a1a1a',
+        'on-surface-variant': '#e1e1e1',
+        'surface-dim': '#050505',
+        'surface-bright': '#121212',
+        'surface-container-lowest': '#000000',
+        'surface-container-low': '#050505',
+        'surface-container': '#0a0a0a',
+        'surface-container-high': '#111111',
+        'surface-container-highest': '#1a1a1a',
+        muted: '#444444',
+        error: '#FF3131',
+        'on-error': '#ffffff',
+        'error-container': '#93000a',
+        'on-error-container': '#ffdad6',
+        outline: '#ae8883',
+        'outline-variant': '#5e3f3c',
+        'brand-red': '#FF3131',
+      },
+    },
+  },
+  plugins: [],
+};
